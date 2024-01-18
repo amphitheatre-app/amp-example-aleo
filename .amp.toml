@@ -1,0 +1,17 @@
+name = "amp-example-aleo"
+version = "0.1.0"
+edition = "v1"
+description = "A simple Aleo example app"
+readme = "README.md"
+homepage = "https://github.com/amphitheatre-app/amp-example-aleo"
+repository = "https://github.com/amphitheatre-app/amp-example-aleo"
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["example", "aleo", "getting-started"]
+categories = ["example"]
+
+[build]
+builder = "ghcr.io/amp-buildpacks/leo-builder:0.1.0"
+
+[partners]
+snarkos = { version = "latest", registry = "catalog" }
