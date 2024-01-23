@@ -11,7 +11,10 @@ keywords = ["example", "aleo", "getting-started"]
 categories = ["example"]
 
 [build]
-builder = "ghcr.io/amp-buildpacks/leo-builder:0.1.0"
+builder = "ghcr.io/amp-buildpacks/leo-builder"
 
 [partners]
 snarkos = { version = "latest", registry = "catalog" }
+
+[build.env]
+BP_ALEO_DEPLOY_PRIVATE_KEY = "APrivateKeyxxx"
