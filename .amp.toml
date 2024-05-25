@@ -17,4 +17,4 @@ builder = "ghcr.io/amp-buildpacks/leo-builder"
 snarkos = { version = "latest", registry = "catalog" }
 
 [build.env]
-BP_ALEO_DEPLOY_PRIVATE_KEY = "APrivateKeyxxx"
+BPL_ALEO_DEPLOY_PRIVATE_KEY = "APrivateKeyxxx"
